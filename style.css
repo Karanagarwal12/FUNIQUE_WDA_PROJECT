@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #74087e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/bgImg.jpg);
+}
+
+#top {
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid green; */
+}
+
+#nav {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: 'Mukta', sans-serif;
+    text-shadow: 0 0 10px #fff;
+}
+
+#opt span {
+    font-size: 4rem;
+    color: #fff;
+    cursor: pointer;
+    ;
+}
+
+#center {
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+#center .cleft {
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#center .cright {
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 100%;
+    /* margin-right: 4vw; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.cleft h1 {
+    color: #fff;
+    margin-top: 11vh;
+}
+
+.cleft form {
+    margin-top: 2vh;
+}
+
+.cleft form .inp {
+    width: 100%;
+    border-bottom: 1px solid #a3a3a3;
+    height: 3rem;
+    color: #ffffff;
+    display: flex;
+    align-items: baseline;
+    border-radius: 5px;
+}
+
+.cleft form .inp i {
+    height: 3rem;
+    color: #ffffffa9;
+    padding-right: 1vw;
+}
+
+.cleft form input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    height: 3rem;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.cleft form input:hover {
+    background-color: #0000003a;
+}
+
+.cleft form input:active {
+    border: none;
+    background-color: transparent;
+}
+
+.cleft form input:focus {
+    border: none;
+    background-color: transparent;
+}
+
+.cleft form input::placeholder {
+    color: #ffffffd0;
+}
+
+.cleft form button {
+    width: 100%;
+    cursor: pointer;
+    background-color: #c521d7;
+    height: 2rem;
+    padding: 1vh 2vw;
+    border-radius: 10px;
+    margin-top: 5vh;
+    color: #fff;
+}
+
+.cleft form button:hover {
+    background-color: #9d0cad;
+
+}
+
+.cright .circle {
+    border-radius: 50%;
+    background-color: #c521d7;
+    height: 18vw;
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    height: 70%;
+    width: 70%;
+    margin-bottom: 5vh;
+    object-fit: contain;
+    filter: drop-shadow(5px 5px 4px #0000005f);
+}
