@@ -73,6 +73,8 @@ body {
 .cleft h1 {
     color: #fff;
     margin-top: 11vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
 }
 
 .cleft form {
@@ -142,7 +144,8 @@ body {
 
 .cright .circle {
     border-radius: 50%;
-    background-color: #c521d7;
+    /* background-color: #0700076c; */
+    background-image: linear-gradient(#960aa6,#f837de,#f837de,#9206a1);
     height: 18vw;
     width: 18vw;
     display: flex;
@@ -155,5 +158,5 @@ body {
     width: 70%;
     margin-bottom: 5vh;
     object-fit: contain;
-    filter: drop-shadow(5px 5px 4px #0000005f);
+    filter: drop-shadow(0px 0px 6px #ffffff9d);
 }
