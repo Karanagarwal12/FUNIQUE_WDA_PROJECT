@@ -13,20 +13,16 @@ export default function Navbar() {
                 </div>
                 <div id="Nav">
                     <div id="search">
-                        <input className='searchInput'type="search"  />
-                            <SearchIcon className='searchIcon'/>
-
+                        <input className='searchInput' type="search" />
+                        <SearchIcon className='searchIcon' />
                     </div>
                     <div className='navIcons'>
                         <div id="home">
-                            <HomeIcon className='HomeIcon'/>
-
+                            <HomeIcon className='HomeIcon' />
                         </div>
                         <div id="bell">
                             <NotificationsActiveIcon className='NotiIcon' />
                         </div>
-
-
                         <div id="setting">
                             <SettingsIcon className='SettingsIcon' />
                         </div>

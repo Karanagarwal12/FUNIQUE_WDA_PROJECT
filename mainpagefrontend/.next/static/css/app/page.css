@@ -1,0 +1,89 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/styles/posts.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/styles/chatBox.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.chatBox {
+    background: linear-gradient(transparent, #0b0b0b5a);
+    height: 100%;
+    width: 20vw;
+}
+
+.header {
+    /* background-color: #37373733; */
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.chat {
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    padding: 18px 2px;
+    border-bottom: 2px solid #2e2e2e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.chat .left{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: linear-gradient(#a40de0,#000000,#a40de0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-30deg);
+}
+.chat .left img {
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.chat .center{
+    padding: 0 20px;
+    width: 68%;
+}
+.chat .center h1{
+    padding-top: 4px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.95rem;
+    line-height: 0.9rem;
+}
+.chat .center span{
+    color: #fff;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.chat .right{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chat .right .dot{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: radial-gradient(#b300fa,#b804fe,#7906a3);
+}
+.chat .right .time{
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: 800;
+    opacity: 0.6;
+}
+
+
