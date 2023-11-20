@@ -104,18 +104,10 @@ body,html{
   display: flex;
   height: 100%;
 }
-#flip{
-  display: flex;
-   flex-direction: row; 
-    margin-top: 2%; 
-    justify-content: space-between;
-   
-}
 .sideBar{
   color: #fff;
   width: 15vw;
   height: 100%;
-  /* background-color:; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
