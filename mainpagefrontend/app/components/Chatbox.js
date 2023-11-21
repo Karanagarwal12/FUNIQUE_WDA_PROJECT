@@ -51,7 +51,7 @@ export default function Chatbox() {
       lastSeen: "offline",
       lastMsg: {
         read: true,
-        content: "Good morning!",
+        content: "Heyy sexyyy...!!",
         time: "2 min",
       },
     }
