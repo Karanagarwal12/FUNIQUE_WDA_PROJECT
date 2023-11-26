@@ -12,11 +12,7 @@ export default function Sidebar() {
             id: "2326rg87y6r5897j"
         },
         {
-            name: "fucking bitches",
-            id: "2326rg87y6r5897j"
-        },
-        {
-            name: "talking shit",
+            name: "Web Dev",
             id: "2326rg87y6r5897j"
         },
         {

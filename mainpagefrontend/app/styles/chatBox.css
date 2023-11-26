@@ -3,7 +3,13 @@
     height: 100%;
     width: 20vw;
 }
-
+.chatBox .chats{
+    height: 100%;
+    overflow: scroll;
+}
+.chatBox .chats::-webkit-scrollbar{
+    display: none;
+}
 .header {
     /* background-color: #37373733; */
     width: 100%;
@@ -60,7 +66,7 @@
 }
 
 .chat .right{
-    width: 15%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;

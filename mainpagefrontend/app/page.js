@@ -10,6 +10,7 @@ function MainPage() {
     <div className="mainPage">
       <Navbar />
       <div className="hero">
+        <div className="bgEffect"></div>
         <Sidebar />
         <Posts />
         <Chatbox />
