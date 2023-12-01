@@ -120,59 +120,6 @@ export default function Chatbox() {
         time: "2 min",
       },
     },
-    {
-      id: "defrt3434t456",
-      senderId: "fw90je8uyw9348ff",
-      receiverId: "skjf5tyertere24r8sd",
-      senderName: "Pranay",
-      senderProfileUrl: "https://images.pexels.com/photos/19087202/pexels-photo-19087202/free-photo-of-elegant-woman-in-a-coat-and-beret-holding-a-newspaper.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      lastSeen: "offline",
-      lastMsg: {
-        read: true,
-        content: "Heyy sexyyy...!!",
-        time: "2 min",
-      },
-    },
-    {
-      id: "defrt3434t456",
-      senderId: "fw90je8uyw9348ff",
-      receiverId: "skjf5tyertere24r8sd",
-      senderName: "Pranay",
-      senderProfileUrl: "https://images.pexels.com/photos/19087202/pexels-photo-19087202/free-photo-of-elegant-woman-in-a-coat-and-beret-holding-a-newspaper.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      lastSeen: "offline",
-      lastMsg: {
-        read: true,
-        content: "Heyy sexyyy...!!",
-        time: "2 min",
-      },
-    },
-    {
-      id: "defrt3434t456",
-      senderId: "fw90je8uyw9348ff",
-      receiverId: "skjf5tyertere24r8sd",
-      senderName: "Pranay",
-      senderProfileUrl: "https://images.pexels.com/photos/19087202/pexels-photo-19087202/free-photo-of-elegant-woman-in-a-coat-and-beret-holding-a-newspaper.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      lastSeen: "offline",
-      lastMsg: {
-        read: true,
-        content: "Heyy sexyyy...!!",
-        time: "2 min",
-      },
-    },
-    {
-      id: "defrt3434t456",
-      senderId: "fw90je8uyw9348ff",
-      receiverId: "skjf5tyertere24r8sd",
-      senderName: "Pranay",
-      senderProfileUrl: "https://images.pexels.com/photos/19087202/pexels-photo-19087202/free-photo-of-elegant-woman-in-a-coat-and-beret-holding-a-newspaper.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      lastSeen: "offline",
-      lastMsg: {
-        read: true,
-        content: "Heyy sexyyy...!!",
-        time: "2 min",
-      },
-    },
-
   ]);
   return (
     <div className="chatBox">

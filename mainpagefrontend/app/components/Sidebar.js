@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 
-export default function Sidebar() {
+export default function Sidebar({data}) {
     const [topInterests, setTopInterests] = useState([
         {
             name: "Foot Ball",
@@ -16,16 +16,20 @@ export default function Sidebar() {
             id: "2326rg87y6r5897j"
         },
         {
-            name: "music",
+            name: "Music",
             id: "2326rg87y6r5897j"
         }
     ])
+    function handler(e){
+        data.setInterest(e.target.innerHTML);
+        data.setHeroCenter("interest");
+    }
     return (
         <div className="sideBar">
             <div className="intrests">
                 <h1>Interests</h1>
                 <ul>
-                    {topInterests.map((interest) => <li>{interest.name}</li>)}
+                    {topInterests.map((interest) => <li onClick={handler}>{interest.name}</li>)}
                 </ul>
             </div>
             <div className="others">

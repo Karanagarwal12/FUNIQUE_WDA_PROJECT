@@ -557,6 +557,9 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
 
 *{
   margin: 0;
@@ -710,7 +713,7 @@ input[type="search"]::-webkit-search-cancel-button {
 .intrests li{
   line-height: 5vh;
   opacity: 0.85;
-
+  cursor: pointer;
 }
 .intrests>h1 {
   font-weight: bolder;

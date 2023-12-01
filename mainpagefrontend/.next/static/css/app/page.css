@@ -351,3 +351,35 @@
 }
 
 
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/styles/interests.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.interestInfo{
+    position: relative;
+    height: 100%;
+    width:55%;
+}
+.interestInfo .postSection{
+    height: 100%;
+    width: 100%;
+}
+.postSection .posts{
+    overflow: scroll;
+}
+.interestInfo .header{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1vw;
+    color: #fff;
+}
+.interest{
+    border: 2px solid #fff;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding: 0.5vw 1vw;
+    cursor: pointer;
+}
+.interest.select{
+    background-color: rgba(171, 9, 204, 0.621);
+}
