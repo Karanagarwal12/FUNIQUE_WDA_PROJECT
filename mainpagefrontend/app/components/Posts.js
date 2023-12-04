@@ -51,7 +51,7 @@ export default function Posts({data}) {
         });
 
         gsap.to(box.lastChild, {
-          x: '-50%',
+          x: '-56%',
           duration: 0.8,
           ease: 'power2.inOut',
         })
@@ -134,6 +134,7 @@ export default function Posts({data}) {
       </div>
     );
   }
+
   return (
     <div className="postSection">
       <div className="posts">
@@ -151,7 +152,10 @@ export default function Posts({data}) {
                   <MoreHorizOutlinedIcon />
                 </div>
                 <div className="lower">
-                  <div><FavoriteBorderRoundedIcon /><ModeCommentOutlinedIcon /><ReplyOutlinedIcon className="share" /></div>
+                  <div>
+                    <FavoriteBorderRoundedIcon className="like"/>
+                  
+                  <ModeCommentOutlinedIcon /><ReplyOutlinedIcon className="share" /></div>
                   <TurnedInNotOutlinedIcon />
                 </div>
               </div>

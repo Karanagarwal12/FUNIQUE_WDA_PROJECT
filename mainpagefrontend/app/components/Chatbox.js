@@ -30,44 +30,44 @@ export default function Chatbox() {
       },
     },
     {
-      id: "53t45ertge4t",
-      senderId: "firwef7y492rh",
-      receiverId: "skjf5tyertere24r8sd",
-      senderName: "Crotonia",
-      senderProfileUrl: "https://lh3.googleusercontent.com/a-/ALV-UjUwh7OlYSEzFENOW7tXhyl4oeknPBeQxSFXNxd9AHfsZ7c=s80-p-k-rw-no",
-      lastSeen: "offline",
-      lastMsg: {
-        read: true,
-        content: "Hi there!",
-        time: "4 days",
-      },
-    },
+      "id": "1",
+      "senderId": "user123",
+      "receiverId": "skjf5tyertere24r8sd",
+      "senderName": "Alice",
+      "senderProfileUrl": "https://imgs.search.brave.com/YuURFlMn0gTr-E7cpdpEyBrycdj6Q0ZzgF2bKZoKDBY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5zcHJvdXRzb2Np/YWwuY29tL3VwbG9h/ZHMvMjAyMi8wNi9w/cm9maWxlLXBpY3R1/cmUuanBlZw",
+      "lastSeen": "online",
+      "lastMsg": {
+        "read": false,
+        "content": "Hey!",
+        "time": "2 days"
+      }
+    },    
     {
-      id: "53t45ertge4t",
-      senderId: "firwef7y492rh",
-      receiverId: "skjf5tyertere24r8sd",
-      senderName: "Crotonia",
-      senderProfileUrl: "https://lh3.googleusercontent.com/a-/ALV-UjUwh7OlYSEzFENOW7tXhyl4oeknPBeQxSFXNxd9AHfsZ7c=s80-p-k-rw-no",
-      lastSeen: "offline",
-      lastMsg: {
-        read: true,
-        content: "Hi there!",
-        time: "4 days",
-      },
-    },
+      "id": "2",
+      "senderId": "user456",
+      "receiverId": "skjf5tyertere24r8sd",
+      "senderName": "Bob",
+      "senderProfileUrl": "https://imgs.search.brave.com/jTC1M7a_RYoLyZCEj4Tk5Wi9bQAaa2I1MdIW-pp4nlU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMtZ2xvYmFsLndl/YnNpdGUtZmlsZXMu/Y29tLzVlYzdkYWQy/ZTZmNjI5NWE5ZTJh/MjNkZC81ZWRmYTdj/NjYwNGM3N2IxYjRi/ZDY1OGFfcHJvZmls/ZXBob3RvNS5qcGVn",
+      "lastSeen": "offline",
+      "lastMsg": {
+        "read": true,
+        "content": "What's up?",
+        "time": "1 day"
+      }
+    },    
     {
-      id: "53t45ertge4t",
-      senderId: "firwef7y492rh",
-      receiverId: "skjf5tyertere24r8sd",
-      senderName: "Crotonia",
-      senderProfileUrl: "https://lh3.googleusercontent.com/a-/ALV-UjUwh7OlYSEzFENOW7tXhyl4oeknPBeQxSFXNxd9AHfsZ7c=s80-p-k-rw-no",
-      lastSeen: "offline",
-      lastMsg: {
-        read: true,
-        content: "Hi there!",
-        time: "4 days",
-      },
-    },
+      "id": "3",
+      "senderId": "user789",
+      "receiverId": "skjf5tyertere24r8sd",
+      "senderName": "Charlie",
+      "senderProfileUrl": "https://imgs.search.brave.com/jLTwrBSRPcoyhBJs1uPbMl500isS1N2O0JlI3BLUQoY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvY29vbC1wcm9m/aWxlLXBpY3R1cmUt/ODdoNDZnY29iamw1/ZTR4dS5qcGc",
+      "lastSeen": "online",
+      "lastMsg": {
+        "read": false,
+        "content": "Morning!",
+        "time": "4 hrs"
+      }
+    },    
     {
       id: "53t45ertge4t",
       senderId: "firwef7y492rh",
@@ -108,18 +108,19 @@ export default function Chatbox() {
       },
     },
     {
-      id: "defrt3434t456",
-      senderId: "fw90je8uyw9348ff",
-      receiverId: "skjf5tyertere24r8sd",
-      senderName: "Pranay",
-      senderProfileUrl: "https://images.pexels.com/photos/19087202/pexels-photo-19087202/free-photo-of-elegant-woman-in-a-coat-and-beret-holding-a-newspaper.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      lastSeen: "offline",
-      lastMsg: {
-        read: true,
-        content: "Heyy sexyyy...!!",
-        time: "2 min",
-      },
-    },
+      "id": "4",
+      "senderId": "user123",
+      "receiverId": "skjf5tyertere24r8sd",
+      "senderName": "Alice",
+      "senderProfileUrl": "https://imgs.search.brave.com/Qmrhq1scPCBh5weOkzTb-HQzEo3L8zp3_9ze3bOlYkE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9leHBl/cnRwaG90b2dyYXBo/eS5iLWNkbi5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDgvcHJvZmlsZS1w/aG90b3MtMi5qcGc",
+      "lastSeen": "offline",
+      "lastMsg": {
+        "read": true,
+        "content": "How are you?",
+        "time": "3 days"
+      }
+    },    
+    
   ]);
   return (
     <div className="chatBox">
@@ -130,12 +131,12 @@ export default function Chatbox() {
         {recentChats.map((chat)=>(
           <div className='chat'>
             <div className='left'><img src={chat.senderProfileUrl}/></div>
-            <div className='center'>
+            <div className={chat.lastMsg.read && `center dim` || `center`}>
               <h1>{chat.senderName}</h1>
               <span>{chat.lastMsg.content}</span>
             </div>
             <div className='right'>
-              {(chat.lastMsg.read == true) && (
+              {chat.lastMsg.read && (
                 <div className='time'>{chat.lastMsg.time}</div>
               ) ||
               (

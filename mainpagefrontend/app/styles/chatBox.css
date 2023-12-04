@@ -6,6 +6,7 @@
 .chatBox .chats{
     height: 100%;
     overflow: scroll;
+    padding-bottom: 50%;
 }
 .chatBox .chats::-webkit-scrollbar{
     display: none;
@@ -44,6 +45,7 @@
 }
 .chat .left img {
     width: 40px;
+    height: 40px;
     border-radius: 50%;
     border: 3px solid black;
 }
@@ -51,6 +53,12 @@
 .chat .center{
     padding: 0 20px;
     width: 68%;
+}
+.chat .center.dim{
+    opacity: 0.7;
+}
+.chat .center.dim:hover{
+    opacity: 0.9;
 }
 .chat .center h1{
     padding-top: 4px;

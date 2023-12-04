@@ -1,0 +1,98 @@
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 14vh;
+}
+.loginBox{
+    background-color: #1b1b1b;
+    height: 70vh;
+    width: 400px;
+    color: #fff;
+    padding: 20px;
+}
+.loginBox h1{
+    font-size: 4rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.form{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #cccccc4e;
+    border-radius: 4px;
+    padding: 14px;
+    transition: all 0.3s ease-in-out;
+}
+.form label{
+    position: relative;
+    top: 40px;
+    left: 14px;
+    opacity: 0.4;
+    transition: all 0.3s ease-in-out;
+    cursor: text;
+}
+.form button{
+    margin-top: 50px;
+    padding: 1vh;
+    background-color: #b30ad9;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.form input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+}
+.password{
+    position: relative;
+}
+.icon{
+    height: 24px;
+    width:24px;
+    overflow: hidden;
+    position: absolute;
+    top:40px;
+    right: 12px;
+    opacity: 0.5;
+}
+.icon:hover{
+    opacity: 1;
+}
+.icon .iconBox{
+    position: absolute;
+    cursor: pointer;
+    left:0px;
+    display: flex;
+}
+.icon .iconBox svg{
+    pointer-events: none;
+}
+
+.loginImg{
+    filter: hue-rotate(25deg) brightness(0.9);
+    margin-right: 10vw;
+    margin-bottom: 16vh;
+}
+.circle{
+    position: absolute;
+    top: -60px;
+    left: 0;
+    height: 240px;
+    width: 280px;
+    background-color: #d920e3;
+    border-bottom-right-radius: 100%;
+    border-right: 25px solid #690372;
+    border-bottom: 4px solid #820492;
+}

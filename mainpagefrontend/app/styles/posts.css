@@ -58,6 +58,9 @@
     display: flex;
     gap: 15px;
 }
+/* .imgCover .lower .like.like{
+    color:red;
+} */
 .imgCover .upper{
     display: flex;
     justify-content: space-between;
@@ -145,7 +148,7 @@
     height: 100%;
 }
 .post .right .box .wrapper{
-    width: 250%;
+    width: 220%;
     height: 100%;
     display: flex;
 }
@@ -163,7 +166,7 @@
 }
 .post .right .box .desWrapper {
     overflow-y: scroll;
-    padding-right: 3.2vw;
+    padding-right: 15%;
 }
 .post .right .box .desWrapper::-webkit-scrollbar{
     display: none;

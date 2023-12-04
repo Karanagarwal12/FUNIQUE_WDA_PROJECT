@@ -16,6 +16,11 @@
     align-items: center;
     gap: 1vw;
     color: #fff;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.interestInfo .header::-webkit-scrollbar{
+    display: none;
 }
 .interest{
     border: 2px solid #fff;
@@ -23,6 +28,7 @@
     font-size: 0.8rem;
     padding: 0.5vw 1vw;
     cursor: pointer;
+    text-wrap: nowrap;
 }
 .interest.select{
     background-color: rgba(171, 9, 204, 0.621);

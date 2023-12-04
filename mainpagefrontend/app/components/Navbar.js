@@ -3,8 +3,17 @@ import HomeIcon from '@mui/icons-material/Home';
 import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
 import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
+import { useRouter } from 'next/navigation';
+import { useState } from 'react';
 
-export default function Navbar() {
+export default function Navbar({data}) {
+    const router = useRouter();
+    const [logined, setLogined] = useState(false);
+    function loginHandler(e) {
+        e.preventDefault();
+        router.push("/login");
+        setLogined(true);
+    }
     return (
         <div>
             <div id="header" >
@@ -17,8 +26,8 @@ export default function Navbar() {
                         <SearchIcon className='searchIcon' />
                     </div>
                     <div className='navIcons'>
-                        <div id="home">
-                            <HomeIcon className='HomeIcon' />
+                        <div id="home" onClick={()=>data.setHeroCenter("posts")}>
+                            <HomeIcon className='HomeIcon'/>
                         </div>
                         <div id="bell">
                             <NotificationsActiveIcon className='NotiIcon' />
@@ -26,10 +35,13 @@ export default function Navbar() {
                         <div id="setting">
                             <SettingsIcon className='SettingsIcon' />
                         </div>
-                        <div id="profile">
-                            <PersonIcon />
-                        </div>
                     </div>
+                        <div id="profile">
+                            {logined && 
+                            <PersonIcon />||
+                            <span className='loginBtn' onClick={loginHandler}>Login</span>
+                            }
+                        </div>
                 </div>
             </div>
         </div>
