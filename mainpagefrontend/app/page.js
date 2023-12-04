@@ -8,8 +8,26 @@ import { useState } from "react"
 
 
 
-function HeroCenter({data}) {
+function HeroCenter({ data }) {
 
+
+
+
+  return (
+    data.heroCenter == "posts"
+    &&
+    <Posts data={{ posts: data.posts }} />
+    ||
+    (data.heroCenter == "interest"
+      &&
+      <Interests data={{ interest: data.interest, setInterest: data.setInterest, posts: data.posts, interests: data.interests }} />
+    )
+  );
+}
+
+function MainPage() {
+  const [heroCenter, setHeroCenter] = useState("posts");
+  const [interest, setInterest] = useState("");
   const [posts, setPosts] = useState([
     {
       id: "slfwoli4342",
@@ -71,27 +89,27 @@ function HeroCenter({data}) {
         },
       ],
       description: `🔐 Cyber Security Alert! 🌐
-  
-  Axios Tech Club is raising awareness about cyber security! 🚨💻
-      
-  🌐 Why It Matters:
-  In our digital age, cyber threats are real. Let's stay informed and secure our online presence. 💡
-      
-  🚀 What We'll Cover:
-  - Strong password creation 🛡️
-  - Spotting phishing attempts 🎣
-  - Regular software updates 🔄
-  - Two-factor authentication 🔐
-  
-  📅 Join Us:
-  2nd Dec at 5 pm for a webinar on cyber security tips! Let's build a safer digital community. 💪💬
-  
-  🔁 Spread the Word:
-  Share this post to promote cyber security awareness! 👥🌐
-  
-  Stay safe online! 🛡️✨`,
+    
+    Axios Tech Club is raising awareness about cyber security! 🚨💻
+        
+    🌐 Why It Matters:
+    In our digital age, cyber threats are real. Let's stay informed and secure our online presence. 💡
+        
+    🚀 What We'll Cover:
+    - Strong password creation 🛡️
+    - Spotting phishing attempts 🎣
+    - Regular software updates 🔄
+    - Two-factor authentication 🔐
+    
+    📅 Join Us:
+    2nd Dec at 5 pm for a webinar on cyber security tips! Let's build a safer digital community. 💪💬
+    
+    🔁 Spread the Word:
+    Share this post to promote cyber security awareness! 👥🌐
+    
+    Stay safe online! 🛡️✨`,
       img: "https://imgs.search.brave.com/tnsak6oefUoXbIJmnOk7JXHolK1LziGbQjXEoiogfaw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jYXQtY29tcHV0/ZXJfODE1MDg4LTIz/NC5qcGc_c2l6ZT02/MjYmZXh0PWpwZw",
-      tags: ["AxiosTechClub", "CyberSecurity", "OnlineSafety","Foot Ball"],
+      tags: ["AxiosTechClub", "CyberSecurity", "OnlineSafety", "Foot Ball"],
       views: [
         {
           userId: "2r4r34834jf",
@@ -186,27 +204,27 @@ function HeroCenter({data}) {
         },
       ],
       description: `🔐 Cyber Security Alert! 🌐
-  
-  Axios Tech Club is raising awareness about cyber security! 🚨💻
-  
-  🌐 Why It Matters:
-  In our digital age, cyber threats are real. Let's stay informed and secure our online presence. 💡
-  
-  🚀 What We'll Cover:
-  - Strong password creation 🛡️
-  - Spotting phishing attempts 🎣
-  - Regular software updates 🔄
-  - Two-factor authentication 🔐
-  
-  📅 Join Us:
-  2nd Dec at 5 pm for a webinar on cyber security tips! Let's build a safer digital community. 💪💬
-  
-  🔁 Spread the Word:
-  Share this post to promote cyber security awareness! 👥🌐
-  
-  Stay safe online! 🛡️✨`,
+    
+    Axios Tech Club is raising awareness about cyber security! 🚨💻
+    
+    🌐 Why It Matters:
+    In our digital age, cyber threats are real. Let's stay informed and secure our online presence. 💡
+    
+    🚀 What We'll Cover:
+    - Strong password creation 🛡️
+    - Spotting phishing attempts 🎣
+    - Regular software updates 🔄
+    - Two-factor authentication 🔐
+    
+    📅 Join Us:
+    2nd Dec at 5 pm for a webinar on cyber security tips! Let's build a safer digital community. 💪💬
+    
+    🔁 Spread the Word:
+    Share this post to promote cyber security awareness! 👥🌐
+    
+    Stay safe online! 🛡️✨`,
       img: "https://imgs.search.brave.com/Erzu2ep08I9dCNRC9CjUVg4vtvCw9tLqdKWiir4lTeQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wbHVz/LnVuc3BsYXNoLmNv/bS9wcmVtaXVtX3Bo/b3RvLTE2Nzg1NjU5/OTkzMzItMWNkZTQ2/MmY3YjI0P3E9ODAm/dz0xMDAwJmF1dG89/Zm9ybWF0JmZpdD1j/cm9wJml4bGliPXJi/LTQuMC4zJml4aWQ9/TTN3eE1qQTNmREI4/TUh4elpXRnlZMmg4/T1h4OGNISnZaM0po/YlcxcGJtZDhaVzU4/TUh4OE1IeDhmREE9",
-      tags: ["AxiosTechClub", "CyberSecurity", "OnlineSafety","Music"],
+      tags: ["AxiosTechClub", "CyberSecurity", "OnlineSafety", "Music"],
       views: [
         {
           userId: "2r4r34834jf",
@@ -299,25 +317,25 @@ function HeroCenter({data}) {
         },
       ],
       description: `🔐 Cyber Security Alert! 🌐
-    
-    Axios Tech Club is raising awareness about cyber security! 🚨💻
-    
-    🌐 Why It Matters:
-    In our digital age, cyber threats are real. Let's stay informed and secure our online presence. 💡
-    
-    🚀 What We'll Cover:
-    - Strong password creation 🛡️
-    - Spotting phishing attempts 🎣
-    - Regular software updates 🔄
-    - Two-factor authentication 🔐
-    
-    📅 Join Us:
-    2nd Dec at 5 pm for a webinar on cyber security tips! Let's build a safer digital community. 💪💬
-    
-    🔁 Spread the Word:
-    Share this post to promote cyber security awareness! 👥🌐
-    
-    Stay safe online! 🛡️✨`,
+      
+      Axios Tech Club is raising awareness about cyber security! 🚨💻
+      
+      🌐 Why It Matters:
+      In our digital age, cyber threats are real. Let's stay informed and secure our online presence. 💡
+      
+      🚀 What We'll Cover:
+      - Strong password creation 🛡️
+      - Spotting phishing attempts 🎣
+      - Regular software updates 🔄
+      - Two-factor authentication 🔐
+      
+      📅 Join Us:
+      2nd Dec at 5 pm for a webinar on cyber security tips! Let's build a safer digital community. 💪💬
+      
+      🔁 Spread the Word:
+      Share this post to promote cyber security awareness! 👥🌐
+      
+      Stay safe online! 🛡️✨`,
       img: "https://imgs.search.brave.com/8DP5hlegr_krGiMXuYsgq9z_op_P1H8xrT6U6GQ2V1s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jMS53/YWxscGFwZXJmbGFy/ZS5jb20vcHJldmll/dy8xMS8zMTMvNzQv/Y29kZS1jb2Rlci1j/b2RpbmctaHRtbC5q/cGc",
       tags: ["AxiosTechClub", "CyberSecurity", "OnlineSafety"],
       views: [
@@ -412,22 +430,20 @@ function HeroCenter({data}) {
         }
       ],
       "description": `🚀 Space Exploration Event! 🌌
-    
-      Join us for an exciting event on space exploration! 🚀🔭
-    
-      🌟 Highlights:
-      - Guest speakers from NASA 🌠
-      - Virtual telescope demo 🪐
-      - Q&A with astronauts 👨‍🚀
-      - Live streaming of a rocket launch 🚀
-    
-      📅 Date: December 15th, 2023
-      ⏰ Time: 7:00 PM - 9:00 PM
-      📍 Location: Virtual (Online)
-    
-      🚨 Limited spots available. Register now and don't miss the cosmic adventure! 🌌✨
-    
-      #SpaceEvent #Astronomy #NASA #CosmicAdventure`,
+      
+        Join us for an exciting event on space exploration! 🚀🔭
+      
+        🌟 Highlights:
+        - Guest speakers from NASA 🌠
+        - Virtual telescope demo 🪐
+        - Q&A with astronauts 👨‍🚀
+        - Live streaming of a rocket launch 🚀
+      
+        📅 Date: December 15th, 2023
+        ⏰ Time: 7:00 PM - 9:00 PM
+        📍 Location: Virtual (Online)
+      
+        🚨 Limited spots available. Register now and don't miss the cosmic adventure! 🌌✨`,
       "img": "https://imgs.search.brave.com/4NRax8COJhe4kKDQZBQw6UMdt4QZhdXInXZTrAllxZE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvNGstc3BhY2Ut/OXcyN2RxbWM0bnJz/M3h3ZC5qcGc",
       "tags": ["SpaceEvent", "Astronomy", "NASA", "CosmicAdventure"],
       "views": [
@@ -462,39 +478,21 @@ function HeroCenter({data}) {
       ],
       "time": "5 days"
     },
-    
-  ])
-  const [interests, setInterests] = useState(()=>{
 
-  
-    let tags = posts.reduce(((acc,cur)=>{
+  ]);
+  const [interests, setInterests] = useState(() => {
+    let tags = posts.reduce(((acc, cur) => {
       return acc.concat(cur.tags);
-    }),[]);
-    return [...new Set(tags)]
+    }), []);
+    return [...new Set(tags)];
   });
-
-  return (
-    data.heroCenter == "posts"
-    &&
-    <Posts data={{posts}}/>
-    ||
-    (data.heroCenter == "interest"
-      &&
-      <Interests data={{interest:data.interest,setInterest:data.setInterest,posts,interests}}/>
-    )
-  );
-}
-
-function MainPage() {
-  const [heroCenter, setHeroCenter] = useState("posts");
-  const [interest, setInterest] = useState("");
   return (
     <div className="mainPage">
-      <Navbar data={{setHeroCenter}}/>
+      <Navbar data={{ setHeroCenter }} />
       <div className="hero">
         <div className="bgEffect"></div>
-        <Sidebar data={{setHeroCenter,heroCenter,setInterest}} />
-        <HeroCenter data={{setHeroCenter,heroCenter,interest,setInterest}}/>
+        <Sidebar data={{ setHeroCenter, heroCenter, setInterest, interests }} />
+        <HeroCenter data={{ setHeroCenter, heroCenter, interest, setInterest, interests, posts }} />
         <Chatbox />
       </div>
     </div>

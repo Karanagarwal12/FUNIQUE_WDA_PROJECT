@@ -138,8 +138,8 @@ export default function Posts({data}) {
   return (
     <div className="postSection">
       <div className="posts">
-        {posts?.map((post) => (
-          <div className="post">
+        {posts?.map((post,id) => (
+          <div key={id} className="post">
             <div className="left">
               <img src={post.img} />
               <div className="imgCover">

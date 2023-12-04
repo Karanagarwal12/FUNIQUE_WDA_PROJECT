@@ -122,7 +122,7 @@
     font-weight: 700;
     width: 78%;
     text-align: center;
-    padding: 15px 0;
+    padding: 1vw 0;
     top: 0;
     background-color: #131013;
     font-family:Arial, Helvetica, sans-serif;
@@ -254,4 +254,21 @@
     cursor: pointer;
     pointer-events: none;
     z-index: 2;
+}
+
+@media screen and (max-width: 1370px){
+    .post .right .nav .des,.post .right .nav .comments {
+        left:-90%;
+    }
+}
+@media screen and (max-width: 1250px){
+    .post .right .nav .des,.post .right .nav .comments {
+        left:-100%;
+    }
+}
+@media screen and (max-width: 1160px){
+    .post .right .nav .des,.post .right .nav .comments {
+        left:-110%;
+        font-size: 0.85rem;
+    }
 }

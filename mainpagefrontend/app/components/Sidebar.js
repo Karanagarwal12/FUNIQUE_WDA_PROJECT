@@ -2,24 +2,7 @@ import { useState } from "react"
 
 
 export default function Sidebar({data}) {
-    const [topInterests, setTopInterests] = useState([
-        {
-            name: "Foot Ball",
-            id: "2326rg87y6r5897j"
-        },
-        {
-            name: "Volleyball",
-            id: "2326rg87y6r5897j"
-        },
-        {
-            name: "Web Dev",
-            id: "2326rg87y6r5897j"
-        },
-        {
-            name: "Music",
-            id: "2326rg87y6r5897j"
-        }
-    ])
+    const [topInterests, setTopInterests] = useState(data.interests.slice(0,4));
     function handler(e){
         data.setInterest(e.target.innerHTML);
         data.setHeroCenter("interest");
@@ -29,7 +12,7 @@ export default function Sidebar({data}) {
             <div className="intrests">
                 <h1>Interests</h1>
                 <ul>
-                    {topInterests.map((interest) => <li onClick={handler}>{interest.name}</li>)}
+                    {topInterests.map((interest) => <li onClick={handler}>{interest}</li>)}
                 </ul>
             </div>
             <div className="others">

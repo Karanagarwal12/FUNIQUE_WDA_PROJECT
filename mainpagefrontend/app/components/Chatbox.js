@@ -128,8 +128,8 @@ export default function Chatbox() {
         <span>Chats</span>
       </div>
       <div className='chats'>
-        {recentChats.map((chat)=>(
-          <div className='chat'>
+        {recentChats.map((chat,id)=>(
+          <div className='chat' key={id}>
             <div className='left'><img src={chat.senderProfileUrl}/></div>
             <div className={chat.lastMsg.read && `center dim` || `center`}>
               <h1>{chat.senderName}</h1>
