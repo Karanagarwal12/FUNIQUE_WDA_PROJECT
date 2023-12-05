@@ -109,7 +109,7 @@ function MainPage() {
     
     Stay safe online! 🛡️✨`,
       img: "https://imgs.search.brave.com/tnsak6oefUoXbIJmnOk7JXHolK1LziGbQjXEoiogfaw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9jYXQtY29tcHV0/ZXJfODE1MDg4LTIz/NC5qcGc_c2l6ZT02/MjYmZXh0PWpwZw",
-      tags: ["AxiosTechClub", "CyberSecurity", "OnlineSafety", "Foot Ball"],
+      tags: ["AxiosTechClub", "CyberSecurity", "OnlineSafety", "Football"],
       views: [
         {
           userId: "2r4r34834jf",

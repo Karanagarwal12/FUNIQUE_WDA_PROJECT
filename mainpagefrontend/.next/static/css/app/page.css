@@ -413,6 +413,8 @@
     padding: 0.5vw 1vw;
     cursor: pointer;
     text-wrap: nowrap;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 .interest.select{
     background-color: rgba(171, 9, 204, 0.621);
